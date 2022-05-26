@@ -1,18 +1,31 @@
 {
   "name": "todolist-v1",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "16.15.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.3.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rRoberto-dDamnplock/todoapp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/rRoberto-dDamnplock/todoapp/issues"
+  },
+  "homepage": "https://github.com/rRoberto-dDamnplock/todoapp#readme",
+  "description": ""
 }
